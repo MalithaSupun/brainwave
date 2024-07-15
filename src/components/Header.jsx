@@ -63,5 +63,3 @@ const Header = () => {
 }
 
 export default Header
-
-//44.28 stoped
