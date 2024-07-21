@@ -4,7 +4,7 @@ import robot from "../assets/hero/robot.jpg";
 import heroBackground from "../assets/hero/hero-background.jpg";
 import Button from "./Button"
 import { BackgroundCircles, BottomLine, Gradient } from './design/Hero';
-import { heroIcons } from './design/Hero';
+import { heroIcons } from '../constants/index';
 import { ScrollParallax } from 'react-just-parallax';
 import { useRef } from 'react';
 import  Generating  from './Generating'
