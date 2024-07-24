@@ -2,6 +2,7 @@ import Section from "./Section"
 import Heading from "./Heading"
 import { check, service1, service2, service3 } from "../assets"
 import { brainwaveServices, brainwaveServicesIcons } from "../constants"
+import { ScrollParallax } from 'react-just-parallax';
 
 import Genarating from "./Generating"
 import {PhotoChatMessage, Gradient, VideoBar, VideoChatMessage} from "./design/Services"
@@ -54,7 +55,9 @@ const Services = () => {
             <h4 className="h4 mb-4">Photo editing</h4>
             <p className="body-2 mb-[3rem] text-n-3">Automatically enhance your photos using our AI app&apos;s photo editing feature. Try it now!</p>
             </div>
+            <ScrollParallax isAbsolutelyPositioned>
             <PhotoChatMessage />
+            </ScrollParallax>
         </div>
         <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
             <div className="py-12 px-4 xl:px-8">
@@ -83,12 +86,17 @@ const Services = () => {
                     height={400}
                     alt="Scary robot"
                 />
+                 <ScrollParallax isAbsolutelyPositioned>
                 <VideoChatMessage />
+                </ScrollParallax>
                 <VideoBar />
+                
             </div>
         </div>
         </div>
+       
         <Gradient />
+        
         </div>
     </div>
     </Section>
