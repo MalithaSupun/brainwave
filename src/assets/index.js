@@ -40,13 +40,6 @@ import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
 import service3 from "./services/service-3.png";
 
-import card1 from "./benefits/card-1.svg";
-import card2 from "./benefits/card-2.svg";
-import card3 from "./benefits/card-3.svg";
-import card4 from "./benefits/card-4.svg";
-import card5 from "./benefits/card-5.svg";
-import card6 from "./benefits/card-6.svg";
-
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
 
@@ -151,10 +144,4 @@ export {
   instagram,
   telegram,
   twitter,
-  card1,
-  card2,
-  card3,
-  card4,
-  card5,
-  card6,
 };
