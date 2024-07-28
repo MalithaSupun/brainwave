@@ -34,13 +34,13 @@ import {
     telegram,
     twitter,
     yourlogo,
+    card1,
+    card2,
+    card3,
+    card4,
+    card5,
+    card6,
   } from "../assets";
-  import card1Background from '../assets/benefits/card-1.svg';
-  import card2Background from '../assets/benefits/card-2.svg';
-  import card3Background from '../assets/benefits/card-3.svg';
-  import card4Background from '../assets/benefits/card-4.svg';
-  import card5Background from '../assets/benefits/card-5.svg';
-  import card6Background from '../assets/benefits/card-6.svg';
   
   export const navigation = [
     {
@@ -252,7 +252,7 @@ import {
       id: "0",
       title: "Ask anything",
       text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-      backgroundUrl: card1Background,
+      backgroundUrl: card1,
       iconUrl: benefitIcon1,
       imageUrl: benefitImage2,
     },
@@ -260,7 +260,7 @@ import {
       id: "1",
       title: "Improve everyday",
       text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-      backgroundUrl: card2Background,
+      backgroundUrl: card2,
       iconUrl: benefitIcon2,
       imageUrl: benefitImage2,
       light: true,
@@ -269,7 +269,7 @@ import {
       id: "2",
       title: "Connect everywhere",
       text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
-      backgroundUrl: card3Background,
+      backgroundUrl: card3,
       iconUrl: benefitIcon3,
       imageUrl: benefitImage2,
     },
@@ -277,7 +277,7 @@ import {
       id: "3",
       title: "Fast responding",
       text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-      backgroundUrl: card4Background,
+      backgroundUrl: card4,
       iconUrl: benefitIcon4,
       imageUrl: benefitImage2,
       light: true,
@@ -286,7 +286,7 @@ import {
       id: "4",
       title: "Ask anything",
       text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-      backgroundUrl: card5Background,
+      backgroundUrl: card5,
       iconUrl: benefitIcon1,
       imageUrl: benefitImage2,
     },
@@ -294,7 +294,7 @@ import {
       id: "5",
       title: "Improve everyday",
       text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-      backgroundUrl: card6Background,
+      backgroundUrl: card6,
       iconUrl: benefitIcon2,
       imageUrl: benefitImage2,
     },
